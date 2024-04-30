@@ -47,8 +47,25 @@
       "options": {
         "targetName": "test"
       }
+    },
+    {
+      "plugin": "@nx/storybook/plugin",
+      "options": {
+        "serveStorybookTargetName": "storybook",
+        "buildStorybookTargetName": "build-storybook",
+        "testStorybookTargetName": "test-storybook",
+        "staticStorybookTargetName": "static-storybook"
+      }
     }
   ],
+  "release": {
+    ""
+       "version": {
+         "generatorOptions": {
+           "currentVersionResolver": "git-tag",
+           "specifierSource": "conventional-commits"
+        }
+        },
   "generators": {
     "@nx/next": {
       "application": {
@@ -56,5 +73,6 @@
         "linter": "eslint"
       }
     }
-  }
+  },
+  "defaultProject": ""
 }
