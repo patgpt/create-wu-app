@@ -62,6 +62,9 @@
     
     "projectsRelationship": "independent",
     "releaseTagPattern": "v{version}",
+    "git": {
+      "commitMessage": "chore(release): {version}"
+    },
     "changelog": {
       "projectChangelogs": {
               "createRelease": "github"
