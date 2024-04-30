@@ -59,13 +59,23 @@
     }
   ],
   "release": {
-    ""
+    "changelog": {
+          "workspaceChangelog": {
+              // This will create a GitHub release containing the workspace
+              // changelog contents
+              "createRelease": "github",
+              // This will disable creating a workspace CHANGELOG.md file
+              "file": false
+            }
+          },
+    "projects": ["*", "!e2e"],
        "version": {
          "generatorOptions": {
            "currentVersionResolver": "git-tag",
            "specifierSource": "conventional-commits"
         }
         },
+      },
   "generators": {
     "@nx/next": {
       "application": {
