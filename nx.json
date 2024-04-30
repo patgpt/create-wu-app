@@ -59,6 +59,7 @@
     }
   ],
   "release": {
+    "release-"
     "releaseTagPattern": "{version}",
     "changelog": {
       "projectChangelogs": true,
