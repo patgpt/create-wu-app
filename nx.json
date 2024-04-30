@@ -59,9 +59,14 @@
     }
   ],
   "release": {
-    "release-"
     "releaseTagPattern": "v{version}",
     "changelog": {
+      "projectChangelogs": {
+              "createRelease": "github"
+           },
+      "workspaceChangelog": {
+             "createRelease": "github"
+           },
       "projectChangelogs": true,
       "versioningStrategy": "independent",
       "groupSimilarCommits": true
