@@ -66,6 +66,7 @@
               "createRelease": "github",
               // This will disable creating a workspace CHANGELOG.md file
               "file": false
+      
             }
           },
     "projects": ["*", "!e2e"],
