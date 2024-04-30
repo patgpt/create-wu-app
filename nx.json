@@ -69,10 +69,7 @@
       "projectChangelogs": {
               "createRelease": "github"
            },
-      
-      "projectChangelogs": true,
       "versioningStrategy": "independent",
-      "groupSimilarCommits": true
     },
     "projects": ["*", "!e2e"],
     "version": {
@@ -90,5 +87,4 @@
       }
     }
   },
-  "defaultProject": ""
 }
