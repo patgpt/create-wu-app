@@ -60,7 +60,7 @@
   ],
   "release": {
     "release-"
-    "releaseTagPattern": "{version}",
+    "releaseTagPattern": "v{version}",
     "changelog": {
       "projectChangelogs": true,
       "versioningStrategy": "independent",
