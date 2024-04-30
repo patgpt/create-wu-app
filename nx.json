@@ -59,6 +59,7 @@
     }
   ],
   "release": {
+    "projectsRelationship": "independent",
     "releaseTagPattern": "v{version}",
     "changelog": {
       "projectChangelogs": {
