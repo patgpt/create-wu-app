@@ -59,18 +59,12 @@
     }
   ],
   "release": {
-    
     "projectsRelationship": "independent",
     "releaseTagPattern": "v{version}",
     "git": {
       "commitMessage": "chore(release): {version}"
     },
-    "changelog": {
-      "projectChangelogs": {
-              "createRelease": "github"
-           },
-      "versioningStrategy": "independent",
-    },
+
     "projects": ["*", "!e2e"],
     "version": {
       "generatorOptions": {
@@ -86,5 +80,5 @@
         "linter": "eslint"
       }
     }
-  },
+  }
 }
